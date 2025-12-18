@@ -89,7 +89,7 @@ fun HomeScreen(viewModel: PasswordViewModel) {
             ModalBottomSheet(
                 sheetState = sheetState,
                 onDismissRequest = { showAddSheet = false },
-                containerColor = Color(0xFFF9F9F9),   // 🔑 FIX
+                containerColor = Color(0xFFF9F9F9),
                 tonalElevation = 0.dp
             ) {
                 AddPasswordBottomSheet { account, username, password ->
