@@ -113,11 +113,12 @@ fun PasswordDetailBottomSheet(
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Text(
-                    text = "••••••••",
+                    text = if (showPassword) decryptedPassword else "••••••••",
                     fontSize = 16.sp,
                     fontWeight = FontWeight.Bold,
                     color = Color.Black
                 )
+
 
                 IconButton(onClick = { showPassword = !showPassword }) {
                     Icon(
