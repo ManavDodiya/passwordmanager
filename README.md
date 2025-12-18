@@ -5,6 +5,11 @@ This application allows users to securely store, view, edit, and delete account 
 
 ---
 
+## 📥 Download
+
+👉 [Download latest APK](https://github.com/ManavDodiya/passwordmanager/releases/latest)
+
+
 ## 📱 Features
 
 - Secure password storage using **AES-GCM encryption**
